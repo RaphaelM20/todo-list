@@ -1,9 +1,6 @@
 import { 
     projects,
-    createProject,
-    addTodo,
     deleteTodo,
-    updateTodoComplete,
     setActiveProject,
     activeProject,
     addProject,
@@ -489,7 +486,7 @@ function showTodoForm() {
     });
 }
 
-function showEditTodoForm(todo, project) {
+function showEditTodoForm(todo) {
     const form = document.createElement("form");
     form.classList.add("todo-form");
 
